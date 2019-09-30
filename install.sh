@@ -5,7 +5,14 @@ green='\033[1;32m'
 printf "$green"
 echo "The Modules file size 50.mb
 After Extraction it will only 100.mb" | pv -qL 10
-pkg install -y git python python2 wget termux-api zip
+pkg install -y git curl php python python2 wget termux-api zip
+pip2 install beautifulsoup4
+pip2 install termcolor
+pip2 install argparse
+pip2 install request
+pip2 install pysocks
+pkg install mpv
+pkg install libcurl
 wget https://www.dropbox.com/s/ujx6x7036gtt6qf/modules.zip
 printf "$red"
 unzip modules.zip
