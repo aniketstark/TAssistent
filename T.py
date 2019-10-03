@@ -7,7 +7,14 @@ from core.starkmcore import *
 from multiprocessing import Process
 from termcolor import colored
 
-print("hello sir")
+print(colored("""
+ ####################
+    TAssistent
+ ####################
+ Insta @aniketstark330
+ GitHub aniketstark
+ ####################
+ """, "green"))
 checkfile()
 def command():
  stark = raw_input("stark > ")
