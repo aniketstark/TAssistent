@@ -17,7 +17,13 @@ def checkfile():
 
 def help():
  print(colored("""
-  basic Commands
+  ##########################
+ 	TAssistant
+   Github-:aniketstark
+   Instagram-:@aniketstark330
+  ##########################
+  
+ basic Commands
 
  flash light on/off
  battery info or battery
