@@ -4,6 +4,9 @@ import os.path
 import time
 import random
 from termcolor import colored
+import urllib
+
+######FUNCTION
 
 PATH='./modules/test.txt'
 
@@ -13,6 +16,16 @@ def checkfile():
  else:
     print "some files is not installed"
     time.sleep(2)
+    exit()
+
+def netcheck():
+ print(colored("""CHECKING INTERNET ON/OFF""", "green"))
+ try :
+    stri = "https://www.google.co.in"
+    data = urllib.urlopen(stri)
+    print "Connected"
+ except:
+    print(colored("""THIS TOOL REQUIRE INTERNET""", "red"))
     exit()
 
 def help():
@@ -32,6 +45,7 @@ def help():
 
  Advance Commands
 
+ hash or hash decrypt or hasher <=== this will decrypt hash
  dork or sqldork
  start phishing or phishing
  start webhacking or webhacking
@@ -39,13 +53,14 @@ def help():
  create payload  or payload
  
  Tools
+
  install stark2.0 or stark2.0 (soon....)
  install lazymeta or lazymeta (soon....)
 
  Credit or Credits
  """, "green"))
 
-#Advance level
+########ADVANCE LEVEL
 
 def Phishing():
  print(colored("""
@@ -109,7 +124,21 @@ def payload():
 def sqldork():
   os.system("cd modules/SCANNER-INURLBR/ && bash sql.sh")
 
-####Basic Level
+def Hash():
+ netcheck()
+ print(colored("""
+  #######################
+  1. Hash-Buster
+  2. Hasher
+  #######################
+  """, "green"))
+ hasher = raw_input("hash > ")
+ if hasher == "1":
+  os.system("cd modules/Hash-Buster && python hash.py")
+ elif hasher == "2":
+  os.system("cd modules/hasher && python2 hash.py")
+
+####BASIC LEVEL
 
 def battery():
  os.system("termux-battery-status")
@@ -151,8 +180,22 @@ def visit():
   os.system("termux-open-url https://www.youtube.com/channel/UCjb4zsUpNuSSaCCUirQL_sQ")
 
 def credit():
- printslow(colored("""This Script Was Make By Manish Mhatre\n tools original developers\ntool                developer\n1. Shellphish        thelinuxchoice\n2. Weeman            Evaith Security\n3. BlackEye        Thelinuxchoice\n""", "green"))
-#####Talksys
+ printslow(colored("""
+  This Script Was Creates by 
+  Manish and Aniket Stark 
+  ####################################
+  TOOLS			DEVELOPERS
+  ####################################
+  ShellPhish		TheLinuxChoice
+  BlackEye		TheLinuxChoice
+  Weeman		Evait Security GmbH
+  Red_Hawk		Tuhinshubhra
+  Hasher		CiKu370
+  SCANNER-INURLBR	GoogleINURL
+  ####################################
+  """, "green"))
+
+#####TALK SYSTEM
 hi = [
     "how are you",
     "nice to meet you",
@@ -164,3 +207,5 @@ def printslow(str):
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.1)
+
+

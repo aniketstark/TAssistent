@@ -31,6 +31,8 @@ def command():
   webhacking()
  elif stark == "dork" or stark == "sqldork":
   sqldork()
+ elif stark == "hash" or stark == "hasher" or stark == "hash decrypt":
+  Hash()
  elif stark == "battery" or stark == "battery info":
   battery()
  elif stark == "capture photo" or stark == "photo":
