@@ -13,7 +13,7 @@ pip2 install request
 pip2 install pysocks
 pkg install mpv
 pkg install libcurl
-wget https://www.dropbox.com/s/ujx6x7036gtt6qf/modules.zip
+wget https://www.dropbox.com/s/lmmje0z260gm3dl/modules.zip
 printf "$red"
 unzip modules.zip
 wget https://www.dropbox.com/s/h49l3azdo0q5uxq/sql.sh
