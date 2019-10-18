@@ -28,7 +28,7 @@ def command():
  elif stark == "create payload" or stark == "payload":
   payload()
  elif stark == "startwebhacking" or stark == "webhacking":
-  webhacking()
+  webhack()
  elif stark == "dork" or stark == "sqldork":
   sqldork()
  elif stark == "hash" or stark == "hasher" or stark == "hash decrypt":
