@@ -31,6 +31,8 @@ def command():
   webhack()
  elif stark == "dork" or stark == "sqldork":
   sqldork()
+ elif stark == "dorkinfo" or stark == "sqldorks" or stark == "dorks":
+  os.system("termux-open-url https://gamerstech330.blogspot.com/2019/11/sql-dorks.html")
  elif stark == "hash" or stark == "hasher" or stark == "hash decrypt":
   Hash()
  elif stark == "battery" or stark == "battery info":
