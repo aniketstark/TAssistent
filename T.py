@@ -7,6 +7,7 @@ from core.starkmcore import *
 from multiprocessing import Process
 from termcolor import colored
 
+os.system("termux-toast -b green -c black Welcome")
 print(colored("""
  ####################
     TAssistent
@@ -35,6 +36,10 @@ def command():
   os.system("termux-open-url https://gamerstech330.blogspot.com/2019/11/sql-dorks.html")
  elif stark == "hash" or stark == "hasher" or stark == "hash decrypt":
   Hash()
+ elif stark == "ddos":
+  ddos()
+ elif stark == "crawler" or stark == "admin page" or stark == "admin page finder":
+  adminweb()
  elif stark == "battery" or stark == "battery info":
   battery()
  elif stark == "capture photo" or stark == "photo":
@@ -59,6 +64,7 @@ def command():
  elif stark == "thanks" or stark == "thank you":
   printslow(colored("""Glad You Like It XD\n""", "blue"))
  elif stark == "exit":
+  os.system("termux-toast -b grey -c white Have Nice Day")
   exit()
  else:
       print  (colored("ERROR: Sorry sir my maker not added for this command", 'red'))
