@@ -17,7 +17,7 @@ like
 9. text to speak (offline)
 10. flash light (bruh😂 noob)
 11.  basic Talk system
-
+12. DDOS Attack
 installation
 git clone
 
@@ -34,6 +34,13 @@ use help command it will help you how to use
 
 Credits
 1. SHELLPHISH =====> https://github.com/thelinuxchoice/shellphish
-2. BLACKEY    =====> https://github.com/thelinuxchoice/blackeye
+2. BLACKEYE   =====> https://github.com/thelinuxchoice/blackeye
 3. WEEMAN     =====> https://github.com/evait-security/weeman
 4. INURLBR    =====> https://github.com/googleinurl/SCANNER-INURLBR
+5. HULK
+6. GOLDERNEYE =====> 
+7. TORSHAMMER =====> 
+8. HASHER
+9. RED_HAWK
+10.HASH-BUSTER====>
+11.

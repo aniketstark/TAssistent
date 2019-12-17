@@ -215,9 +215,9 @@ def credit():
   Red_Hawk		Tuhinshubhra
   Hasher		CiKu370
   SCANNER-INURLBR	GoogleINURL
-  TorsHammer
-  Hulk
-  GoldenEye
+  TorsHammer		TheLinuxChoice
+  Hulk			Grafov
+  GoldenEye		Jseidl
   ####################################
   """, "green"))
 
