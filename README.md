@@ -37,10 +37,11 @@ Credits
 2. BLACKEYE   =====> https://github.com/thelinuxchoice/blackeye
 3. WEEMAN     =====> https://github.com/evait-security/weeman
 4. INURLBR    =====> https://github.com/googleinurl/SCANNER-INURLBR
-5. HULK
-6. GOLDERNEYE =====> 
-7. TORSHAMMER =====> 
-8. HASHER
-9. RED_HAWK
-10.HASH-BUSTER====>
+5. HULK       =====> https://github.com/grafov/hulk
+6. GOLDERNEYE =====> https://github.com/jseidl/GoldenEye
+7. TORSHAMMER =====> https://github.com/dotfighter/torshammer Real Owner THELINUXCHOICE
+
+8. HASHER     =====> https://github.com/CiKu370/hasher
+9. RED_HAWK   =====> https://github.com/Tuhinshubhra/RED_HAWK
+10.HASH-BUSTER=====> https://github.com/s0md3v/Hash-Buster 
 11.

