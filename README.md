@@ -18,6 +18,7 @@ like
 10. flash light (bruh😂 noob)
 11.  basic Talk system
 12. DDOS Attack
+13. website admin page finder
 installation
 git clone
 
