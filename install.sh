@@ -13,10 +13,10 @@ pip2 install request
 pip2 install pysocks
 pkg install mpv
 pkg install libcurl
-wget https://www.dropbox.com/s/n3wut9zl3o0k8an/modules.zip
+wget https://www.dropbox.com/s/jwckwt71gcki2nc/modules.zip
 printf "$red"
 unzip modules.zip
-wget https://www.dropbox.com/s/h49l3azdo0q5uxq/sql.sh
+wget https://www.dropbox.com/s/wv9yf4tgivj5mzg/sql.sh
 chmod +x sql.sh
 mv sql.sh modules/SCANNER-INURLBR/
 rm -rf modules.zip
